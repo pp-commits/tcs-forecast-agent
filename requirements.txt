@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+python-dotenv
+langchain
+langchain-openai
+openai
+faiss-cpu
+pdfplumber
+rapidfuzz
+langchain-text-splitters
+langchain-community

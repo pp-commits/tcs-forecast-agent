@@ -1,0 +1,45 @@
+# Virtual environments
+venv/
+venv1/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+
+# MySQL local files
+*.sql
+
+# Local vector store (if persisted)
+faiss_index/
+index.faiss
+index.pkl
+
+# Data (reports + transcripts)
+data/reports/*
+data/transcripts/*
+!data/.gitkeep
+
+# SQLite fallback DB (if used)
+tcs_agent_dev.db
+
+# Uvicorn reload artifacts
+*.pid
