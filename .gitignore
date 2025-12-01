@@ -33,10 +33,7 @@ faiss_index/
 index.faiss
 index.pkl
 
-# Data (reports + transcripts)
-data/reports/*
-data/transcripts/*
-!data/.gitkeep
+
 
 # SQLite fallback DB (if used)
 tcs_agent_dev.db
